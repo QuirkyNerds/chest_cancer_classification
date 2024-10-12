@@ -2,6 +2,7 @@ import os
 import urllib.request as request
 from zipfile import ZipFile
 import tensorflow as tf
+from tensorflow.keras.optimizers import Adam
 import time
 from cnnClassifier.entity.config_entity import TrainingConfig
 from pathlib import Path
